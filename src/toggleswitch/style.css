@@ -1,0 +1,39 @@
+.toggle {
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: grey;
+  border: 3px solid grey;
+}
+
+.switch {
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  transition: right .5s;
+  right: 50%;
+}
+
+.status {
+  position: relative;
+  bottom: 9px;
+  left: 5px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.toggle-on {
+  background-color: rgb(49, 155, 49);
+  border: 3px solid rgb(49, 155, 49);
+}
+
+.switch-on {
+  transition: right .5s;
+  right:0;
+  border: 1px solid rgb(49, 155, 49);
+}
